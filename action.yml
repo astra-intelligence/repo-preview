@@ -1,0 +1,33 @@
+name: 'Repo Preview'
+description: 'Generate beautiful social preview images for your GitHub repository'
+author: 'Adventure Agent'
+branding:
+  icon: 'image'
+  color: 'purple'
+
+inputs:
+  output-path:
+    description: 'Where to save the generated SVG preview'
+    required: false
+    default: '.github/social-preview.svg'
+  repo-name:
+    description: 'Repository name (defaults to current repo)'
+    required: false
+  repo-description:
+    description: 'Repository description (defaults to current repo description)'
+    required: false
+  primary-color:
+    description: 'Primary gradient color (hex)'
+    required: false
+    default: '#6B46C1'
+  secondary-color:
+    description: 'Secondary gradient color (hex)'
+    required: false
+    default: '#3B82F6'
+  license-key:
+    description: 'Gumroad license key to remove watermark'
+    required: false
+
+runs:
+  using: 'node20'
+  main: 'src/index.js'
