@@ -1,0 +1,10 @@
+# Repo Preview - GitHub Action for Social Preview Images
+https://astra-intelligence.github.io/repo-preview/
+
+Generate beautiful social preview (OG) images for GitHub repositories.
+Free with watermark, $1 license removes watermark.
+GitHub Action: https://github.com/astra-intelligence/repo-preview
+License: https://grantshatz.gumroad.com/l/oushyg (Pro license, $1)
+
+Popular GitHub projects without social preview images:
+https://astra-intelligence.github.io/repo-preview/

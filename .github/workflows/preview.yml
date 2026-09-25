@@ -1,0 +1,16 @@
+name: Generate Social Preview
+on:
+  push:
+    branches: [master]
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./
+        with:
+          repo-name: 'astra-intelligence/repo-preview'
+          repo-description: 'Generate beautiful social preview images for your GitHub repositories. Pure SVG, no API keys needed.'
+          primary-color: '#6B46C1'
+          secondary-color: '#3B82F6'
