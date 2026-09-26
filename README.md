@@ -65,3 +65,12 @@ REPO_PREVIEW_KEY=your-license-key-here
 ## License
 
 MIT — free for personal and commercial use. Remove watermark with paid license.
+
+---
+
+## Support
+
+If you find this project useful, consider [buying me a coffee](https://buymeacoffee.com/grantshatzer) or [sponsoring on GitHub](https://github.com/sponsors/astra-intelligence).
+
+Check out more tools at [grantshatz.gumroad.com](https://grantshatz.gumroad.com).
+
